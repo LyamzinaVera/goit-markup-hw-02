@@ -1,62 +1,116 @@
-:root{
+:root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --primery-white-color:  #FFFFFF;
+    --primary-white-color: #FFFFFF;
+   
 }
-.body{
-    background-color: var(--decoration-color);
-    color: var(--primary-text-color);
+
+
+.body {
+background-color: var(--primary-white-color);
+color: var(--primary-text-color);
+font-family: Roboto, sans-serif;
 }
+
 .logo {
-   color: var(--accent-color); 
+    color: var(--accent-color);
+}
+.logo-black {
+    color: var(--title-text-color)
+}
+.logo-white {
+    color: var(--primery-white-color)
 }
 ul {
     list-style: none;
 }
+
 /* site-nav */
-.site-nav a{
-    color: var(--title-text-color) ;
+.auth-nav {
+    color: var(--primary-text-color);
 }
+.auth-nav:hover {
+    color: var(--accent-color);
+}
+.Auth-nav-mail {
+    color: var(--accent-color)
+}
+.Auth-nav-mail:hover {
+    color: var(--primary-text-color);
+}
+.site-nav a {
+    color: var(--title-text-color);
+}
+
 .site-nav .link {
     color: var(--accent-color);
 }
+
 .site-nav .link.current {
-   color: var(--accent-color); 
+    color: var(--accent-color);
 }
+
 /* Hero */
 .hero-title {
-    color: var(--primery-white-color);  
+    color: var(--primary-white-color);
 }
 
 /* Section */
 .section-title {
-    color: var(--title-text-color)  ;
+    color: var(--title-text-color);
 }
 
 /* Features */
 .features .title {
     color: var(--title-text-color);
 }
+
 /* Examples */
 .work-list .title {
     color: var(--title-text-color);
 }
-/* button */
-.button {
- color: var(--primery-white-color); 
- background-color: var(--accent-color);   
-}
-.button.primary {
-    color: var(--primery-white-color); 
-    background-color: var(--accent-color); 
-    border-color: transparent;
- }
-.button.secondery {
-color: var(--accent-color);
-background-color: var(--primery-white-color);
-border-color: var(--accent-color)
 
+/* button */
+.button:focus {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+}
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.button:hover {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    border-color: transparent;
+}
+
+.button.secondery {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+    border-color: var(--accent-color)
+}
+/* Footer */
+.logo-white {
+    color: var(--primary-white-color);
+}
+.logo-address {
+    color: var(--primary-white-color);
+}
+.logo-address:hover{
+color: var(--accent-color);
+}
+.logo-address-mail {
+    color: var(--primary-white-color);
+}
+.logo-address-mail:hover {
+    color: var(--accent-color);
 }
 /* цвет основного текста  #212121*/
 
