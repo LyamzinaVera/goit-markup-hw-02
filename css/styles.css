@@ -11,7 +11,7 @@
 
 body {
 background-color: var(--primary-white-color);
-color: var(--primary-text-color);
+color: var(--title-text-color);
 
 font-family: Roboto, sans-serif;
 font-size: 14px;
@@ -40,7 +40,7 @@ ul {
 .auth-nav {
     color: var(--primary-text-color);
     font-weight: 500;
-    line-height: 1,14;
+    line-height: 1.14;
     text-decoration: none;
     letter-spacing: 0.02em;
 }
@@ -57,20 +57,23 @@ ul {
 }
 .site-nav a {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     text-decoration: none;
     font-style: normal;
 }
 .site-nav .link {
     color: var(--accent-color);
-    text-decoration: none;
+        text-decoration: none;
     font-style: normal;
 }
 
 .site-nav .link.current {
     color: var(--accent-color);
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+    
+    
 }
 
 /* Hero */
@@ -84,6 +87,7 @@ ul {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Section */
@@ -103,10 +107,8 @@ ul {
 .title {
     color: var(--title-text-color);
     font-weight: 700;
-    line-height: 1.14;
-    font-weight: 700;
     font-size: 14px;
-    letter-spacing: 0.03em;
+    line-height: 1.14;
     text-transform: uppercase;
 }
 .title-photo {
@@ -120,9 +122,10 @@ ul {
       line-height: 1.71;
 }
 .text-photo {
-    font-size: 16px;
-    line-height: 1.19px;
-        text-align: center;
+    color: var(--primary-text-color);
+     font-size: 16px;
+     line-height: 1.19px;
+     text-align: center;
 }
 /* Examples */
 .work-list .title {
@@ -152,8 +155,6 @@ ul {
     }
 /* button */
 .button {
-    color: var(--accent-color);
-    background-color: var(--primary-white-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -169,19 +170,20 @@ ul {
 }
 .button.primary:focus,
 .button.primary:hover {
-    color: var(--primary-white-color);
+  color: var(--primary-white-color);
     background-color: var(--accent-text-color);
 }
 
 .button.secondery {
-    color: var(--accent-color);
-    background-color: var(--primary-white-color);
-    border-color: var(--accent-color);
+    color: var(--title-text-color);
+    background-color: var(--background-color-alternativ);
+    border-color: transparent;
 }
 .button.secondery:focus,
 .button.secondery:hover {
-    color: var(----accent-text-color);
-    background-color: var(--primary-white-color);
+color: var(--primary-white-color);
+background-color: var(--accent-color);
+border-color: transparent;
 }
 /* Footer */
 .footer {
